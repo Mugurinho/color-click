@@ -1,0 +1,22 @@
+
+
+<body>
+<button onclick=go();>ClickMe</button>
+<p id="output">Change Me</p>
+</body>
+
+<script>
+
+var clicks = 0;
+var a = document.getElementById("output");
+
+function go() {
+    clicks ++;
+   if (clicks % 2 == 0) {
+      a.style.color = "black";
+  }
+  else
+   a.style.color = "red";
+   
+};
+   </script>
